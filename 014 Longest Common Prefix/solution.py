@@ -16,13 +16,14 @@ Note:
 
 All given inputs are in lowercase letters a-z.
 """
-# ---------------- Solution 0 ----------- 
+
 class Solution(object):
     def longestCommonPrefix(self, strs):
         """
         :type strs: List[str]
         :rtype: str
         """
+        # ---------------- Solution 0 ----------- 
         def find_str(i, j, string, strs):
             count = len(strs)
             for s in strs:

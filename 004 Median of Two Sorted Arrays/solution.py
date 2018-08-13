@@ -21,8 +21,7 @@ nums2 = [3, 4]
 The median is (2 + 3)/2 = 2.5
 """
 
-# ---------------- Solution 0 -----------  56 ms
-# 修修补补终于通过，思路没错，但是代码写的太冗余，分支太多，有时间理清了再重写 2018.8.12
+
 class Solution(object):
     def findMedianSortedArrays(self, nums1, nums2):
         """
@@ -30,6 +29,8 @@ class Solution(object):
         :type nums2: List[int]
         :rtype: float
         """
+        # ---------------- Solution 0 -----------  56 ms
+        # 修修补补终于通过，思路没错，但是代码写的太冗余，分支太多，有时间理清了再重写 2018.8.12
         l1 = len(nums1)
         l2 = len(nums2)
 

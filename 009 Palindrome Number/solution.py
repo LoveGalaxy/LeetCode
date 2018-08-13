@@ -16,13 +16,14 @@ Input: 10
 Output: false
 Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 """
-# ---------------- Solution 0 ----------- 
+
 class Solution(object):
     def isPalindrome(self, x):
         """
         :type x: int
         :rtype: bool
         """
+        # ---------------- Solution 0 ----------- 
         if str(x) == str(x)[::-1]:
             return True
         else:

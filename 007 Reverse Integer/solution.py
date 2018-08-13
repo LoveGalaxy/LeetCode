@@ -17,13 +17,14 @@ Note:
 Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−231,  231 − 1]. For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.
 
 """
-# ---------------- Solution 0 ----------- 
+
 class Solution(object):
     def reverse(self, x):
         """
         :type x: int
         :rtype: int
         """
+        # ---------------- Solution 0 ----------- 
         if x >= 0:
             r = int(str(x)[::-1])
             if r < - 2**31 or r > 2**31-1:
