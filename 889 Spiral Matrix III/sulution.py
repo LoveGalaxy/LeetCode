@@ -70,7 +70,7 @@ class Solution(object):
             return r, c
 
         r_list = []
-        A = [[0 for i in range(C)] for i in xrange(R)]
+        A = [[0 for i in range(C)] for i in range(R)]
         count = 1
         turn = 0
         if in_grid(R, C, r0, c0):
