@@ -27,6 +27,7 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
+        # ---------------- Solution 0 ----------- 
         l = [0, 1, 2]
         for i in range(2, n):
             l.append(l[i]+l[i-1])
